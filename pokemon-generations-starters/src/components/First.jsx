@@ -30,10 +30,16 @@ const First = () => {
                 <div>
                     <h3>{pokemon.name.toUpperCase()}</h3>
                     <img width={200} src={pokemon.sprites.other['official-artwork'].front_default}/>
+                    <span className={pokemon.types[0].type.name}>{pokemon.types[0].type.name[0].toUpperCase() + pokemon.types[0].type.name.slice(1)}</span>
+                    <span className={pokemon.types[1].type.name}>{pokemon.types[1].type.name[0].toUpperCase() + pokemon.types[1].type.name.slice(1)}</span>
                 </div>
                 <div>
                     <h3>{pokemon2.name.toUpperCase()}</h3>
                     <img width={200} src={pokemon2.sprites.other['official-artwork'].front_default}/>
+                    <span className={pokemon2.types[0].type.name}>{pokemon2.types[0].type.name[0].toUpperCase() + pokemon2.types[0].type.name.slice(1)}</span>
+                    if({pokemon2.types[1].type.name}) {
+                        <span className={pokemon2.types[1].type.name}>{pokemon2.types[1].type.name[0].toUpperCase() + pokemon2.types[1].type.name.slice(1)}</span>
+                    }
                 </div>
                 <div>
                     <h3>{pokemon3.name.toUpperCase()}</h3>
