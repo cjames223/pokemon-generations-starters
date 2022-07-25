@@ -15,4 +15,7 @@
 
 .gen-header {
   background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
