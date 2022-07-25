@@ -1,3 +1,8 @@
+.header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: auto auto auto;

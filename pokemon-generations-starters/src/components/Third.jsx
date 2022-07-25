@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const Second = () => {
+const Third = () => {
     const url = 'https://pokeapi.co/api/v2/pokemon/'
-    const firstgen = ['chikorita', 'cyndaquil', 'totodile']
+    const firstgen = ['treecko', 'torchic', 'mudkip']
     const [pokemon, setPokemon] = useState(null)
     const [pokemon2, setPokemon2] = useState(null)
     const [pokemon3, setPokemon3] = useState(null)
@@ -46,10 +46,9 @@ const Second = () => {
                     <span className={pokemon3.types[0].type.name}>{pokemon3.types[0].type.name[0].toUpperCase() + pokemon3.types[0].type.name.slice(1)}</span>
                     {pokemon3.types[1] && <span className={pokemon3.types[1].type.name}>{pokemon3.types[1].type.name[0].toUpperCase() + pokemon3.types[1].type.name.slice(1)}</span>}
                 </div>
-
             </div>
         )
     }
 }
 
-export default Second
+export default Third

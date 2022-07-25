@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const Second = () => {
+const Fifth = () => {
     const url = 'https://pokeapi.co/api/v2/pokemon/'
-    const firstgen = ['chikorita', 'cyndaquil', 'totodile']
+    const firstgen = ['snivy', 'tepig', 'oshawott']
     const [pokemon, setPokemon] = useState(null)
     const [pokemon2, setPokemon2] = useState(null)
     const [pokemon3, setPokemon3] = useState(null)
@@ -52,4 +52,4 @@ const Second = () => {
     }
 }
 
-export default Second
+export default Fifth
