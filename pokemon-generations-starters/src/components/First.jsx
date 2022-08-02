@@ -25,8 +25,6 @@ const First = () => {
             })
     },[])
 
-    
-
     if(pokemon && pokemon2 && pokemon3) {
         return(
             <div className='wrapper'>
@@ -52,9 +50,6 @@ const First = () => {
             </div>
         )
     }
-
-    
-    
 }
 
 export default First

@@ -21,6 +21,15 @@ body {
   background-color: rgba(16, 15, 16, 0.7);
 }
 
+.wrapper h3 {
+  color: white;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
 button {
   background-color: rgba(16, 15, 16, 0.0);
   border: none;
